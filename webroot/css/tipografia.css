@@ -1,0 +1,192 @@
+/* 
+    Document   : tipografia
+    Created on : 09/02/2011, 14:51:42
+    Author     : Administrador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+a{
+    font-family: arial;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#branco-tela h3{
+    padding-top: 15px;
+    font-size: 26px;  
+}
+
+#branco-tela p{
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+#branco-tela input[type=text]{
+    width: 250px;
+}
+
+#branco-tela form{
+    padding-left: 25px;
+}
+
+input[type=text], input[type=password]{
+    border: 1px solid #cecece;
+    margin-top: 1px;
+    padding: 3px;
+    color: #8a8a8a;
+    margin-top /*\**/: 1px\9;
+    *margin-top: -1px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#box-login span{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#login-senha span{
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#menu-superior ul li a{
+    font-family: serif;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#menu-superior ul li a:hover{
+    text-decoration: underline;
+}
+
+#menu-inferior ul li a{
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    color: #2c2c2c;
+    display: inline-block;
+    padding-top: 6px;
+    height: 24px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+#menu-inferior ul li a:hover{
+    background-image: url(../img/bg-button.png);
+    padding-top: 4px;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 24px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border: 1px solid #9d9c9c;
+}
+
+#editorias-rotato ul li{
+    font-family: arial;
+    font-size: 15px;
+    color: #020202;
+    text-align: left;
+    list-style: disc inside url(../img/list-img.png);
+    margin-bottom: 36px;
+}
+
+#editorias-rotato ul li a{
+    font-family: arial;
+    color: #020202;
+    text-decoration: none;
+}
+
+#editorias-rotato ul li a:hover{
+    text-decoration: underline;
+}
+
+#editorias-rotato ul li p{
+    margin-left: 17px;
+}
+
+#slide-materias-destaques ul li p{
+    margin-top: 10px;
+    text-align: left;
+}
+
+#caixa-principal-rodape ul li{
+    padding: 20px;
+    font-family: arial;
+    font-size: 16px;
+    color: #020202;
+    text-align: left;
+    list-style: disc inside url(../img/list-img.png);
+}
+
+#caixa-principal-rodape ul li p{ 
+    margin-left: 17px;
+}
+
+
+#rodape p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#chave p{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+#header-pagina-menu h2{
+    font-size: 36px;
+    color: #fff;
+    font-family: sans;
+}
+
+#titulo-revista{
+    font-family: sans;
+    color: #fff;
+    font-size: 24px;
+}
+
+#destaques h2{
+    font-family: sans;
+    color: #fff;
+    font-size: 16px;
+}
+
+#destaques a{
+    margin-left: 27px;
+    padding: 5px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #620202;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}

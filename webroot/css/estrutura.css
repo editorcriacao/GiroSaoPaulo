@@ -1,0 +1,465 @@
+/* 
+    Document   : estrutura
+    Created on : 09/02/2011, 09:21:47
+    Author     : Administrador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html, body, #wrap {height: 100%;}
+
+body{
+    background-color: #f4f3f3;
+}
+body > #todo {
+    height: auto;
+    min-height: 100%;
+}
+
+/* HEADER */
+div#topo{
+    background-image: url(../img/bg-topo.png);
+    height: 151px;
+    width: 100%;
+}
+
+#topo img{
+    padding-left: 40px;
+}
+
+#topo p{
+    padding-left: 65px;
+}
+
+#banner{
+    background-color: #000;
+    height: 96px;
+    width: 728px;
+    margin-top: -120px;
+    margin-left: 22%;
+    margin-right: auto;
+}
+
+#login-senha{
+    margin-left: 53%;
+    width: 180px;
+}
+
+#chave{
+    margin-top: 3px;
+    *margin-top: 2px;
+    background-image: url(../img/chave-login-senha.png);
+    width: 28px;
+    height: 43px;
+    display: block;
+}
+
+#login-senha span{
+    margin-left: -60px;
+}
+
+#box-login{
+    position: absolute;
+    padding: 12px;
+    display: none;
+    margin-top: 38px;
+    background-color: #ededed;
+    border: 1px solid #dfdfdf;
+    width: 170px;
+    height: 90px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#box-login input[type=submit]{
+    margin-top: 3px;
+    background-image: url(../img/bg-button.png);
+    border: 1px solid #9d9c9c;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#branco-tela textarea{
+    border: 1px solid #cecece;
+    padding: 5px;
+    color: #8a8a8a;
+    font-family: arial;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#branco-tela input[type=submit]{
+    margin-top: 15px;
+    background-image: url(../img/bg-button.png);
+    border: 1px solid #9d9c9c;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#busca{
+    margin-left: 75%;
+    margin-top: -35px;
+}
+
+.lupa-busca{
+    background-image: url(../img/lupa-busca.png);
+    width: 30px;
+    height: 27px;
+    border: 0;
+    position: relative;
+    margin-left: 165px;
+    top: -26px;
+    cursor: pointer;
+}
+
+#menu-superior{
+    background-color: #4a0000;
+    width: 100%;
+    height: 42px;
+}
+
+#menu-superior ul li{
+    margin: auto 20px;
+    text-align: center;
+    display: inline;
+}
+
+#menu-superior ul{
+    text-align: center;
+    width: 100%;
+    padding-top: 12px;
+}
+
+#menu-inferior{
+    margin-top: 15px;
+    margin-left: 10.5%;
+
+}
+
+#menu-inferior ul{
+    text-align: center;
+    background-image: url(../img/bg-menu-interior.png);
+    height: 28px;
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 6px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#menu-inferior ul li{ 
+    display: inline;
+}
+
+#infografico{
+    float: right;
+    margin-right: 10%;
+    margin-top: -50px;
+}
+
+#infografico img{
+    float: left;
+}
+
+#infografico a{
+    margin-top: 30px;
+    background-image: url(../img/bg-button.png);
+    border: 1px solid #9d9c9c;
+    height: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+
+    display: inline-block;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 17px;
+    color: #2c2c2c;
+}
+/* HEADER */
+
+/***************************/
+
+/* CONTEUDO */
+#content{
+    height:100%;
+    min-height:100%;
+    display: block;
+    float: left;
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+#banner-lateral{
+    float: right;
+    width: 19.5%;
+    min-height: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+#principal-home{
+    display: block;
+    height: 450px;
+    margin-top: 30px;
+}
+
+#principal-home #lista-editorias{
+    float: left;
+    padding: 15px;
+    text-align: center;
+    margin-left: 13%;
+    width: 169px;
+    background-color: #fff;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#principal-home #lista-editorias #editorias-rotato{
+    height: 365px;
+    overflow: hidden;
+}
+
+#editorias-rotato ul li div.painel{
+    position: absolute;
+    left: 24%;
+    margin-top: -40px;
+    *margin-top: -55px;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #bebebe;
+    padding: 8px;
+    display: none;
+    z-index: 100;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+
+}
+
+#principal-home #lista-editorias .traco{
+    margin: 0 auto;
+    padding: 5px;
+    width: 80%;
+    border-bottom: 1px solid #bebebe;
+}
+
+#principal-home #slide-materias-destaques{
+    width: 55.5%;
+    padding: 9px;
+    float: left;
+    display: inline;
+    margin-left: 1%;
+    background-color: #fff;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#slide-materias-destaques{
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+}
+
+#slide-materias-destaques ul li{
+    width: 100%;
+}
+
+#slide-materias-destaques ul li img{
+
+}
+
+#principal-home #slide-materias-destaques #faixa-preta{
+    background-color: #000;
+    color: #fff;
+    font-family: arial;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 18px;
+    height: 38px;
+    width: 100%;
+    position: absolute;
+    margin-top: -58px;
+    *margin-top: -56px;
+
+    filter:alpha(opacity=80);
+    opacity: 0.8;
+}
+
+
+#principal-home #slide-materias-destaques #faixa-preta span{
+    margin-left: 10px;
+}
+
+#principal-rodape{
+    width: 690px;
+    margin-left: 13%;
+    min-height: 100%;
+    display: block;
+    *margin-top: 30px;
+
+}
+
+#principal-rodape #caixa-principal-rodape{
+    float: left;
+    display: inline-block;
+    width: 210px;
+    background-color: #fff;
+    padding: 2px;
+    margin-right: 10px;
+    *margin-right: 9px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#caixa-principal-rodape ul #faixa-preta{
+    background-color: #000;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 28px;
+    width: 205px;
+    position: absolute;
+    margin-top: -38px;
+    *margin-left: -214px;
+    *margin-top: 130px;
+
+    filter:alpha(opacity=80);
+    opacity: 0.8;
+}
+
+
+#header-pagina-menu{
+    margin-top: 30px;
+    background-color: #620202;
+    width: 425px;
+    margin-left: 13%;
+    padding-left: 35px;
+    padding-top: 10px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#traco-vinho{
+    border-bottom: 3px solid #620202;
+    width: 84%;
+    margin-top: -3px;
+    *margin-top: -16px;
+    margin-left: 13%;
+}
+
+#branco-tela{
+    min-height: 100%;
+    height: auto;
+    background-color: #fff;
+    width: 82.5%;
+    margin-left: 13%;
+    padding: 8px;
+}
+
+#caixa-revista{
+    margin-left: 20px;
+    margin-top: -1px;
+    width: 570px;
+    height: 204px;
+    border: 1px solid #bebebe;
+    padding: 9px;
+    display: block;
+
+     border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+}
+
+#titulo-revista{
+    margin-left: 40px;
+    padding: 6px;
+    width: 360px;
+    background-color: #620202;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#capa{
+    float: left;
+}
+
+#destaques{
+    padding: 5px;
+     float: left;
+}
+
+#destaques h2{
+    padding: 5px;
+    float: left;
+    margin-left: 23px;
+    background-color: #620202;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+/* CONTEUDO */
+
+
+/* RODEPÉ */
+#rodape{
+    margin-top: 20px;
+    position: relative;
+    clear:both;
+
+    margin-left: 10.5%;
+    width: 67%;
+    height: 40px;
+    background-color: #fff;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+/* RODEPÉ */
