@@ -27,6 +27,14 @@ p {
     font-weight: normal;
 }
 
+.data-topo{
+    font-size: 13px;
+}
+
+.menu-topo{
+    font-size: 16px;
+}
+
 #branco-tela h3{
     padding-top: 15px;
     font-size: 26px;  
@@ -72,9 +80,9 @@ input[type=text], input[type=password]{
 }
 
 #menu-superior ul li a{
-    font-family: serif;
+    font-family: 'Goudy Bookletter 1911';
     color: #fff;
-    font-size: 18px;
+    font-size: 11px;
     text-decoration: none;
 }
 

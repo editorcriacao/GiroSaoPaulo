@@ -1,0 +1,36 @@
+.mail{
+    background-image: url(../img/mail.png);
+    width: 27px;
+    height: 24px;
+    display: block;
+    cursor: pointer;
+    margin-right: 1px;
+}
+
+.linkendin{
+    background-image: url(../img/linkindin.png);
+    width: 27px;
+    height: 24px;
+    display: block;
+    cursor: pointer;
+    margin-right: 1px;
+}
+
+
+.twitter{
+    background-image: url(../img/twitter.png);
+    width: 27px;
+    height: 24px;
+    display: block;
+    cursor: pointer;
+    margin-right: 1px;
+}
+
+
+.facebook{
+    background-image: url(../img/facebook.png);
+    width: 27px;
+    height: 24px;
+    display: block;
+    cursor: pointer;
+}
