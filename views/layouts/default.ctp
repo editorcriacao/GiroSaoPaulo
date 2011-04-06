@@ -123,7 +123,7 @@
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">S</span>USTENTABILIDADE</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">T</span>ECNOLOGIA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">L</span>OJA <span class="menu-topo">V</span>IRTUAL</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">R</span>EVISTA <span class="menu-topo">D</span>IGITAL</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url('/revista-digital') ?>"><span class="menu-topo">R</span>EVISTA <span class="menu-topo">D</span>IGITAL</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">C</span>ADASTRO</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">C</span>ONTATO</a></li>
                             </ul>
@@ -132,8 +132,8 @@
                         </div>
                         <!--                <div id="infografico">
                 <?php //echo $this->Html->image('infografico-icon.png')?>
-                                                                    <a href="<?php //echo $this->Html->url()   ?>">Infográfico</a>
-                                                                </div>-->
+                                                                                    <a href="<?php //echo $this->Html->url()     ?>">Infográfico</a>
+                                                                                </div>-->
                             </div> <!--#header -->
 
                             <div id="content">
@@ -143,12 +143,24 @@
 
                             <div id="banner-lateral">
                 <?php echo $this->element('banner') ?>
-            </div><!--#banner-lateral -->
+                            </div><!--#banner-lateral -->
 
-        </div><!--#todo -->
+                        </div><!--#todo -->
 
-        <div id="rodape">
-            <p> Giro São Paulo © Todos os direitos reservados.</p>
+                        <div id="rodape">
+                            <div id="rodape-caixa">
+                                <ul id="copy">
+                                    <li>&copy; Copyrights - 2011 - Editor Criação Marketing e Comunicação Ltda.</li>
+                                </ul>
+
+                                <ul id="rodape-conteudo">
+                                    <li><a href="<?php echo $this->Html->url('http://www.editorcriacao.com.br/assinaturas/check/1/mais-revista-mulher') ?>" style="color:#550000">ASSINE</a> |</li>
+                                    <li><a href="">CENTRAL DO ASSINANTE</a> |</li>
+                                    <li><a href="<?php echo $this->Html->url('http://www.editorcriacao.com.br/publicidade') ?>">ANUNCIE</a> |</li>
+                                    <li><a href="<?php echo $this->Html->url('/contato') ?>">CONTATO</a></li>
+                                </ul>
+                            </div>
+
         </div><!--#rodape -->
 
     </body>
