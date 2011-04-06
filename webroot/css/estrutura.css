@@ -447,6 +447,39 @@ body > #todo {
 /* REVISTA DIGITAL */
 
 
+/* EDITORIAS */
+
+#caixa-h1-editorias{
+    background-color: #444;
+    width: 210px;
+    text-align: center;
+    margin: 5px 0 0 5px;
+    padding: 13px 3px 3px 3px;
+    z-index: 100;
+    margin-top: -40px;
+    z-index: 10;
+}
+
+#box-sombra-editorias{
+    background-color: #000;
+    width: 215px;
+    height: 37px;
+    margin-top: 15px;
+    margin-left: 10px;
+    z-index: 10;
+}
+
+#faixa-listrada{
+    background-image: url(../img/bg-caixa.png);
+    height: 12px;
+    width: 570px;
+    z-index: 0;
+    margin-left: 225px;
+    margin-top: -11px;
+}
+
+/* EDITORIAS */
+
 /* RODEPÉ */
 #rodape{
     position: relative;

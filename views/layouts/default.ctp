@@ -1,7 +1,7 @@
 <?php echo $this->Html->docType() ?>
 <html dir="ltr" xml:lang="pt-br" lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Giro São Paulo - www.girosaopaulo.com.br</title>
+        <title>Giro São Paulo - <?php echo $title_for_layout?></title>
         <?php echo $this->Html->charset() ?>
         <?php echo $this->Html->css(array('reset', 'estrutura', 'tipografia', 'icon')) ?>
         <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
@@ -118,10 +118,10 @@
                         <div id="menu-superior">
                             <ul>
                                 <li><a href="<?php echo $this->Html->url('/') ?>"><span class="menu-topo">H</span>OME</a> </li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">P</span>ANORAMA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">C</span>ULTURA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">S</span>USTENTABILIDADE</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">T</span>ECNOLOGIA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 39, 'panorama')) ?>"><span class="menu-topo">P</span>ANORAMA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 40, 'cultura')) ?>"><span class="menu-topo">C</span>ULTURA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 41, 'sustentabilidade')) ?>"><span class="menu-topo">S</span>USTENTABILIDADE</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 42, 'tecnologia')) ?>"><span class="menu-topo">T</span>ECNOLOGIA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">L</span>OJA <span class="menu-topo">V</span>IRTUAL</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/revista-digital') ?>"><span class="menu-topo">R</span>EVISTA <span class="menu-topo">D</span>IGITAL</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">C</span>ADASTRO</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;

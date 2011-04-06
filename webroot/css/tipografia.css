@@ -230,6 +230,12 @@ input[type=text], input[type=password]{
     color: #fff;
 }
 
+#caixa-h1-editorias{
+   font-family: arial;
+   color: #fff;
+   font-size: 20px;
+}
+
 .h1-caixa-auta{
     font-size: 17px;
 }
