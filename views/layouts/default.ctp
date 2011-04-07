@@ -1,7 +1,7 @@
 <?php echo $this->Html->docType() ?>
 <html dir="ltr" xml:lang="pt-br" lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Giro São Paulo - www.girosaopaulo.com.br</title>
+        <title>Giro São Paulo</title>
         <?php echo $this->Html->charset() ?>
         <?php echo $this->Html->css(array('reset', 'estrutura', 'tipografia', 'icon')) ?>
         <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
@@ -36,8 +36,14 @@
         <div id="todo">
             <div id="header">
                 <div id="topo">
+
                     <?php echo $this->Html->image('logo.png', array('alt' => 'Giro São Paulo')) ?>
-                    <p><?php
+
+                    <div id="banner">
+
+                    </div>
+
+                    <div id="data"><?php
                     $dia = date('d');
                     $mes = date('n');
                     $ano = date('Y');
@@ -79,11 +85,9 @@
                             echo '<span class="data-topo">' . $dia . '</span> DE DEZEMBRO DE <span class="data-topo">' . $ano . '</span>';
                             break;
                     }
-                    ?></p>
+                    ?></div>
 
-                    <div id="banner">
-
-                    </div>
+                  
 
                     <div id="login-senha">
                         <div id="chave">
@@ -109,10 +113,12 @@
 
                     <div id="busca">
                         <?php echo $this->Form->create('Usuario', array('action' => 'busca')) ?>
-                        <?php echo $this->Form->input('q', array('label' => false, 'value' => 'O que procura?')) ?><?php echo $this->Form->submit(' ', array('class' => 'lupa-busca')) ?>
+                        <?php echo $this->Form->input('q', array('label' => false, 'value' => 'O que você procura?')) ?>
+        <?php echo $this->Form->submit(' ', array('class' => 'lupa-busca')) ?>
                         <?php echo $this->Form->end() ?>
-                            </div>
-                        </div>
+                    </div>
+                 </div>
+                
                         <div id="menu-img-esquerda">
                         </div>
                         <div id="menu-superior">
@@ -132,8 +138,8 @@
                         </div>
                         <!--                <div id="infografico">
                 <?php //echo $this->Html->image('infografico-icon.png')?>
-                                                                    <a href="<?php //echo $this->Html->url()   ?>">Infográfico</a>
-                                                                </div>-->
+                                                                            <a href="<?php //echo $this->Html->url()    ?>">Infográfico</a>
+                                                                        </div>-->
                             </div> <!--#header -->
 
                             <div id="content">

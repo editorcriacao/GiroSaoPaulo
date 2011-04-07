@@ -25,7 +25,7 @@ body > #todo {
 }
 
 #todo{
-    
+
 }
 
 /* HEADER */
@@ -40,14 +40,17 @@ body > #todo {
 }
 
 #topo p{
-    padding-left: 65px;
+    padding-left: 70px;
+    color: #333;
+    margin-bottom: -20px;
 }
+
 
 #banner{
     background-color: #000;
     height: 96px;
     width: 728px;
-    margin-top: -120px;
+    margin-top: -110px;
     margin-left: 22%;
     margin-right: auto;
 }
@@ -57,13 +60,25 @@ body > #todo {
     width: 180px;
 }
 
+#data {
+    width: 150px;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #333;
+    *margin-left:-315px;
+}
+
 #chave{
     margin-top: 3px;
-    *margin-top: 2px;
     background-image: url(../img/chave-login-senha.png);
     width: 28px;
     height: 43px;
     display: block;
+    *margin-top: 2px;
 }
 
 #login-senha span{
@@ -124,19 +139,30 @@ body > #todo {
 }
 
 #busca{
-    margin-left: 75%;
+    margin-left: 70%;
     margin-top: -27px;
+}
+
+#busca input[type=text]{
+    width:180px;
+    margin-left: 35px;
+    *width:190px;
 }
 
 .lupa-busca{
     background-image: url(../img/lupa-busca.png);
-    width: 30px;
-    height: 27px;
+    width: 28px;
+    height: 23px;
     border: 0;
     position: relative;
     margin-left: 165px;
-    top: -26px;
+    top: -24px;
+    left: 74px;
     cursor: pointer;
+}
+
+.lupa-busca:hover{
+    background-image: url(../img/lupa-busca-h.png);
 }
 
 #menu-img-esquerda{
@@ -433,7 +459,7 @@ body > #todo {
     padding: 9px;
     display: block;
 
-     border-radius:2px;
+    border-radius:2px;
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
 }
@@ -455,7 +481,7 @@ body > #todo {
 
 #destaques{
     padding: 5px;
-     float: left;
+    float: left;
 }
 
 #destaques h2{
