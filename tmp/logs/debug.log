@@ -17,3 +17,4 @@
 2011-02-09 10:26:32 Debug: Notice (8): Undefined variable: dataAtual in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\layouts\default.ctp, line 14]
 2011-02-09 12:58:22 Debug: Notice (8): Undefined variable: dataAtual in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\layouts\default.ctp, line 14]
 2011-02-09 12:58:22 Debug: Notice (8): Undefined variable: dataAtual in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\layouts\default.ctp, line 14]
+2011-04-07 11:15:41 Debug: Notice (8): Undefined variable: editoria in [C:\Documents and Settings\Amanda\Desktop\VertrigoServ\www\GiroSaoPaulo\app\views\pages\home.ctp, line 51]
