@@ -36,54 +36,58 @@
         <div id="todo">
             <div id="header">
                 <div id="topo">
+
                     <?php echo $this->Html->image('logo.png', array('alt' => 'Giro São Paulo')) ?>
-                    <p><?php
+
+                    <div id="banner">
+
+                    </div>
+
+                    <div id="data"><?php
                     $dia = date('d');
                     $mes = date('n');
                     $ano = date('Y');
                     switch ($mes) {
                         case 1:
-                            echo '<span class="data-topo">' . $dia . '</span> DE JANEIRO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Janeiro de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 2:
-                            echo '<span class="data-topo">' . $dia . '</span> DE FEVEREIRO <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Fevereiro de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 3:
-                            echo '<span class="data-topo">' . $dia . '</span> DE MARÇO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Março de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 4:
-                            echo '<span class="data-topo">' . $dia . '</span> DE ABRIL DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Abril de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 5:
-                            echo '<span class="data-topo">' . $dia . '</span> DE MAIO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Maio de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 6:
-                            echo '<span class="data-topo">' . $dia . '</span> DE JUNHO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Junho de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 7:
-                            echo '<span class="data-topo">' . $dia . '</span> DE JULHO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Julho de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 8:
-                            echo '<span class="data-topo">' . $dia . '</span> DE AGOSTO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Agosto de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 9:
-                            echo '<span class="data-topo">' . $dia . '</span> DE SETEMBRO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Setembro de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 10:
-                            echo '<span class="data-topo">' . $dia . '</span> DE OUTUBRO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Outubro de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 11:
-                            echo '<span class="data-topo">' . $dia . '</span> DE NOVEMBRO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Novembro de <span class="data-topo">' . $ano . '</span>';
                             break;
                         case 12:
-                            echo '<span class="data-topo">' . $dia . '</span> DE DEZEMBRO DE <span class="data-topo">' . $ano . '</span>';
+                            echo '<span class="data-topo">' . $dia . '</span> de Dezembro de <span class="data-topo">' . $ano . '</span>';
                             break;
                     }
-                    ?></p>
+                    ?></div>
 
-                    <div id="banner">
-
-                    </div>
+                  
 
                     <div id="login-senha">
                         <div id="chave">
@@ -94,7 +98,7 @@
                                 <?php echo $this->Form->submit('Entrar') ?>
                                 <?php echo $this->Form->end() ?>
                             </div>
-                            <p>FAÇA SEU LOGIN</p>
+                            <p>Faça seu Login</p>
                         </div>
                     </div>
 
@@ -109,29 +113,32 @@
 
                     <div id="busca">
                         <?php echo $this->Form->create('Usuario', array('action' => 'busca')) ?>
-                        <?php echo $this->Form->input('q', array('label' => false, 'value' => 'O que procura?')) ?><?php echo $this->Form->submit(' ', array('class' => 'lupa-busca')) ?>
+                        <?php echo $this->Form->input('q', array('label' => false, 'value' => 'O que você procura?')) ?>
+        <?php echo $this->Form->submit(' ', array('class' => 'lupa-busca')) ?>
                         <?php echo $this->Form->end() ?>
-                            </div>
-                        </div>
+                    </div>
+                 </div>
+                
                         <div id="menu-img-esquerda">
                         </div>
                         <div id="menu-superior">
                             <ul>
-                                <li><a href="<?php echo $this->Html->url('/') ?>"><span class="menu-topo">H</span>OME</a> </li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 39, 'panorama')) ?>"><span class="menu-topo">P</span>ANORAMA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 40, 'cultura')) ?>"><span class="menu-topo">C</span>ULTURA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 41, 'sustentabilidade')) ?>"><span class="menu-topo">S</span>USTENTABILIDADE</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 42, 'tecnologia')) ?>"><span class="menu-topo">T</span>ECNOLOGIA</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">L</span>OJA <span class="menu-topo">V</span>IRTUAL</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/revista-digital') ?>"><span class="menu-topo">R</span>EVISTA <span class="menu-topo">D</span>IGITAL</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">C</span>ADASTRO</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>"><span class="menu-topo">C</span>ONTATO</a></li>
+                                <li><a href="<?php echo $this->Html->url('/') ?>">Home</a> </li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 39, 'panorama')) ?>">Panorama</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 40, 'cultura')) ?>">Cultura</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 41, 'sustentabilidade')) ?>">Sustentabilidade</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 42, 'tecnologia')) ?>">Tecnologia</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url('/destaques') ?>">Loja Virtual</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url('/revista-digital') ?>">Revista Digital</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url('/destaques') ?>">Cadastro</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url('/destaques') ?>">Contato</a></li>
                             </ul>
                         </div>
                         <div id="menu-img-direita">
                         </div>
                         <!--                <div id="infografico">
                 <?php //echo $this->Html->image('infografico-icon.png')?>
+
                                                                                     <a href="<?php //echo $this->Html->url()     ?>">Infográfico</a>
                                                                                 </div>-->
                             </div> <!--#header -->

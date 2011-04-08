@@ -7,6 +7,10 @@
     margin-right: 1px;
 }
 
+.mail:hover{
+    background-image: url(../img/mail-h.png);
+}
+
 .linkendin{
     background-image: url(../img/linkindin.png);
     width: 27px;
@@ -14,6 +18,10 @@
     display: block;
     cursor: pointer;
     margin-right: 1px;
+}
+
+.linkendin:hover{
+    background-image: url(../img/linkindin-h.png);
 }
 
 
@@ -26,6 +34,9 @@
     margin-right: 1px;
 }
 
+.twitter:hover{
+    background-image: url(../img/twitter-h.png);
+}
 
 .facebook{
     background-image: url(../img/facebook.png);
@@ -33,4 +44,8 @@
     height: 24px;
     display: block;
     cursor: pointer;
+}
+
+.facebook:hover{
+    background-image: url(../img/facebook-h.png);
 }

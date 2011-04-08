@@ -14,11 +14,11 @@
 html, body, #wrap {height: 100%;}
 
 html{
-     background-color: #fff;
+    background-color: #fff;
 }
 
 body{
-   
+
     background-image: url(../img/bg-degrade.png);
     background-repeat:  repeat-x;
 }
@@ -31,7 +31,7 @@ body > #todo {
 }
 
 #todo{
-    
+
 }
 
 /* HEADER */
@@ -46,14 +46,17 @@ body > #todo {
 }
 
 #topo p{
-    padding-left: 65px;
+    padding-left: 70px;
+    color: #333;
+    margin-bottom: -20px;
 }
+
 
 #banner{
     background-color: #000;
     height: 96px;
     width: 728px;
-    margin-top: -120px;
+    margin-top: -110px;
     margin-left: 22%;
     margin-right: auto;
 }
@@ -63,13 +66,26 @@ body > #todo {
     width: 180px;
 }
 
+#data {
+    width: 150px;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-variant: small-caps;
+    color: #333;
+    *margin-left:-315px;
+}
+
 #chave{
     margin-top: 3px;
-    *margin-top: 2px;
     background-image: url(../img/chave-login-senha.png);
     width: 28px;
     height: 43px;
     display: block;
+    *margin-top: 2px;
 }
 
 #login-senha span{
@@ -130,19 +146,30 @@ body > #todo {
 }
 
 #busca{
-    margin-left: 75%;
+    margin-left: 70%;
     margin-top: -27px;
+}
+
+#busca input[type=text]{
+    width:180px;
+    margin-left: 35px;
+    *width:190px;
 }
 
 .lupa-busca{
     background-image: url(../img/lupa-busca.png);
-    width: 30px;
-    height: 27px;
+    width: 28px;
+    height: 23px;
     border: 0;
     position: relative;
     margin-left: 165px;
-    top: -26px;
+    top: -24px;
+    left: 74px;
     cursor: pointer;
+}
+
+.lupa-busca:hover{
+    background-image: url(../img/lupa-busca-h.png);
 }
 
 #menu-img-esquerda{
@@ -261,51 +288,30 @@ body > #todo {
 #principal-home{
     display: block;
     height: 450px;
-    margin-top: 30px;
+    margin-top: 0;
 }
 
-#principal-home #lista-editorias{
+
+#lista-editorias{
     float: left;
-    padding: 15px;
     text-align: center;
-    margin-left: 13%;
-    width: 169px;
+    padding-left:15px;
+    margin-top: -10px;
+    width: 170px;
     background-color: #fff;
-
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
 }
 
-#principal-home #lista-editorias #editorias-rotato{
-    height: 365px;
+#lista-editorias #outras-materias{
     overflow: hidden;
 }
 
-#editorias-rotato ul li div.painel{
-    position: absolute;
-    left: 24%;
-    margin-top: -40px;
-    *margin-top: -55px;
-    width: 100px;
-    height: 40px;
-    background-color: #fff;
-    border: 1px solid #bebebe;
-    padding: 8px;
-    display: none;
-    z-index: 100;
-
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
-
-}
-
-#principal-home #lista-editorias .traco{
-    margin: 0 auto;
-    padding: 5px;
-    width: 80%;
-    border-bottom: 1px solid #bebebe;
+.traco{
+    width: 170px;
+    margin-left: -10px;
+    border-bottom: 1px solid #999;
+    color: #666666;
+    margin-top: 2px;
+    *margin-top:-8px;
 }
 
 #principal-home #slide-materias-destaques{
@@ -426,6 +432,7 @@ body > #todo {
     height: 37px;
     margin-top: 15px;
     margin-left: 10px;
+
 }
 
 #caixa-branco{
@@ -451,10 +458,10 @@ body > #todo {
 
 #caixa-h1-editorias{
     background-color: #444;
-    width: 210px;
+    width: 140px;
     text-align: center;
     margin: 5px 0 0 5px;
-    padding: 13px 3px 3px 3px;
+    padding: 10px 3px 6px 3px;
     z-index: 100;
     margin-top: -40px;
     z-index: 10;
@@ -462,9 +469,9 @@ body > #todo {
 
 #box-sombra-editorias{
     background-color: #000;
-    width: 215px;
+    width: 146px;
     height: 37px;
-    margin-top: 15px;
+    margin-top: -30px;
     margin-left: 10px;
     z-index: 10;
 }
@@ -472,9 +479,9 @@ body > #todo {
 #faixa-listrada{
     background-image: url(../img/bg-caixa.png);
     height: 12px;
-    width: 570px;
+    width: 630px;
     z-index: 0;
-    margin-left: 225px;
+    margin-left: 157px;
     margin-top: -11px;
 }
 
@@ -502,6 +509,7 @@ body > #todo {
     position: relative;
     clear:both;
     background-image: url(../img/bg-rodape.png);
+    *bottom:-290px;
 
     width: 100%;
     height: 37px;
@@ -526,3 +534,82 @@ body > #todo {
 }
 
 /* RODEPÉ */
+
+#fundo-titulo{
+    background-color: #4a0000;
+    text-align: center;
+    padding: 5px 2px;
+    width: 110px;
+    margin: 5px 0 0 -10px;
+    color: #fff;
+    margin-top: -28px;
+    z-index: 10;
+    font-variant: small-caps;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    *margin-left:-70px;
+}
+
+#fundo-titulo-sombra {
+    background-color: #000;
+    width: 113px;
+    height: 25px;
+    margin-left: -6px;
+    margin-top: -15px;
+    z-index: 9;
+    *margin-left:-64px;
+}
+
+.traco-titulo{
+    width:50px;
+    margin-left: 106px;
+    border-bottom: 1px solid #999;
+    color: #666666;
+    z-index: 8;
+    *margin-top:-16px;
+    *margin-left:101px;
+}
+
+#lateral-left {
+    float: left;
+    width:180px;
+}
+
+#fundo-listrado {
+    background-image: url(../img/bg-caixa.png);
+    height: 496px;
+    width: 166px;
+    z-index: 0;
+    margin-left: -10px;
+    margin-top: 20px;
+    padding: 2px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#fundo-titulo-2{
+    background-color: #4a0000;
+    text-align: center;
+    padding: 5px 2px;
+    width: 110px;
+    margin-left:8px;
+    color: #fff;
+    margin-top: -28px;
+    z-index: 10;
+    font-variant: small-caps;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    *margin-left:-40px;
+}
+
+#fundo-titulo-sombra-2{
+    background-color: #000;
+    width: 113px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: -15px;
+    z-index: 9;
+    *margin-left:-35px;
+}

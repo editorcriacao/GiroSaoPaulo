@@ -17,6 +17,7 @@
 2011-02-09 10:26:32 Debug: Notice (8): Undefined variable: dataAtual in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\layouts\default.ctp, line 14]
 2011-02-09 12:58:22 Debug: Notice (8): Undefined variable: dataAtual in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\layouts\default.ctp, line 14]
 2011-02-09 12:58:22 Debug: Notice (8): Undefined variable: dataAtual in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\layouts\default.ctp, line 14]
+<<<<<<< HEAD
 2011-04-07 10:46:53 Debug: Notice (8): Undefined variable: ultimasSexo in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\editorias\ver.ctp, line 9]
 2011-04-07 10:46:53 Debug: Notice (8): Undefined variable: ultimasSexo in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\editorias\ver.ctp, line 10]
 2011-04-07 10:46:53 Debug: Notice (8): Undefined variable: ultimasSexo in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\editorias\ver.ctp, line 11]
@@ -31,3 +32,6 @@
 2011-04-07 10:54:18 Debug: Notice (8): Undefined index:  Editoria in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\editorias\ver.ctp, line 10]
 2011-04-07 10:55:58 Debug: Notice (8): Undefined index:  Editoria in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\editorias\ver.ctp, line 11]
 2011-04-07 10:56:17 Debug: Notice (8): Undefined index:  Editoria in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\views\editorias\ver.ctp, line 11]
+=======
+2011-04-07 11:15:41 Debug: Notice (8): Undefined variable: editoria in [C:\Documents and Settings\Amanda\Desktop\VertrigoServ\www\GiroSaoPaulo\app\views\pages\home.ctp, line 51]
+>>>>>>> 52f5e6574b24fd38612183b6aa53a382a6953cfc

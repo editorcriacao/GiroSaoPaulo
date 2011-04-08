@@ -46,115 +46,50 @@
 
 <div id="principal-home">
 
-    <div id="lista-editorias">
-        <div class="traco"></div>
-        <br />
-        <div id="editorias-rotato">
-            <ul>
-                <li id="panorama"><a href="">Panorama</a>
-                    <p><a href="">Editoria entrevista fulano.</a></p>
-                    <div id="painel-1" class="painel">Panorama</div>
-                </li>
-                <li id="entrevista">Entrevista
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-2" class="painel">Panorama</div>
-                </li>
-                <li id="ciencia">Ciência e Tecnologia
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-3" class="painel">Panorama</div>
-                </li>
-                <li id="negocios">Negócios e Carreira
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-4" class="painel">Panorama</div>
-                </li>
-                <li id="gestao">Gestão
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-5" class="painel">Panorama</div>
-                </li>
-                <li id="especial">Especial
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-6" class="painel">Panorama</div>
-                </li>
-                <li>Sustentabilidade
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-7" class="painel">Panorama</div>
-                </li>
-                <li>Finanças
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-8" class="painel">Panorama</div>
-                </li>
-                <li>Consumo
-                    <p>Editoria entrevista fulano.</p>
-                    <div id="painel-9" class="painel">Panorama</div>
-                </li>
-            </ul>
+    <div id="lateral-left">
+        <div id="lista-editorias">
+            <div id="fundo-titulo-sombra"></div>
+            <div id="fundo-titulo">Mais Matérias</div>
+            <div class="traco-titulo"></div>
+            <br />
+
+            <div id="outras-materias">
+                <ul>
+                    <li><a href="">Nome Editoria</a>
+                        <p><a href="">Título da matéria vai aqui Título da matéria vai aqui Título da matéria vai aqui</a></p>
+                    </li>
+                    <li><a href="">Nome Editoria</a>
+                        <p><a href="">Título da matéria vai aqui Título da matéria vai aqui Título da matéria vai aqui</a></p>
+                    </li>
+                    <li><a href="">Nome Editoria</a>
+                        <p><a href="">Título da matéria vai aqui Título da matéria vai aqui Título da matéria vai aqui</a></p>
+                    </li>
+                    <li><a href="">Nome Editoria</a>
+                        <p><a href="">Título da matéria vai aqui Título da matéria vai aqui Título da matéria vai aqui</a></p>
+                    </li>
+                    <li><a href="">Nome Editoria</a>
+                        <p><a href="">Título da matéria vai aqui Título da matéria vai aqui Título da matéria vai aqui</a></p>
+                    </li>
+                    <li><a href="">Nome Editoria</a>
+                        <p><a href="">Título da matéria vai aqui Título da matéria vai aqui Título da matéria vai aqui</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="traco"></div>
+
+            <div id="sua-opniao">
+
+                <div id="fundo-listrado">
+                    <div id="fundo-titulo-sombra-2" style="margin-top: 20px;"></div>
+                    <div id="fundo-titulo-2">Dê sua Opnião</div>
+                    <br/>
+                    <h3>Enquete</h3>
+                    <h1>É aqui que o titulo da enquete vai tá?</h1>
+                    
+
+                </div>
+            </div>
+
         </div>
-
-        <div class="traco"></div>
-    </div>
-    <?php echo $this->Html->script('jquery.cycle.lite.min') ?>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#slide-materias-destaques ul").cycle({
-                fx: 'fade',
-                speed: 1000,
-                timeout: 6000
-            });
-
-        });
-    </script>
-
-    <div id="slide-materias-destaques">
-        <ul>
-            <li>
-                <?php echo $this->Html->image('slide/slide-cafe.png') ?><br/>
-                <div id="faixa-preta"><span>Consumo: Café</span></div>
-                <p>Endanis minulluptios eum sit, siti aut expel endae as cum excearchit accatur, occum alibusc illorrorum, velia pellace atiiscius ium utet perum sum ipit ra cullaborit, consenitdolum dolore nessum volume
-                    Eelia pellace atiiscius ium utet perum sum ipit ra cullaborit, consenitdolum dolore nessum volume dolore nessum volume.</p>
-            </li>
-            <li>
-                <?php echo $this->Html->image('slide/slide-panorama.png') ?><br/>
-                <div id="faixa-preta"><span>Ciência e Tecnologia: PC vs iMAC</span></div>
-                <p>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
-                <p>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
-                <p>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
-            </li>
-
-        </ul>
-    </div>
-
-</div>
-<div id="principal-rodape">
-
-    <div id="caixa-principal-rodape">
-        <ul>
-            <?php echo $this->Html->image('img-1.png') ?>
-                <div id="faixa-preta"><span>Consumo: Café</span></div>
-                <li>Especial
-                    <p>Editoria entrevista</p>
-                </li>
-            </ul>
-        </div>
-
-        <div id="caixa-principal-rodape">
-            <ul>
-            <?php echo $this->Html->image('img-1.png') ?>
-                <div id="faixa-preta"><span>Consumo: Café</span></div>
-                <li>Especial
-                    <p>Editoria entrevista</p>
-                </li>
-
-            </ul>
-        </div>
-
-        <div id="caixa-principal-rodape">
-            <ul>
-            <?php echo $this->Html->image('img-1.png') ?>
-            <div id="faixa-preta"><span>Consumo: Café</span></div>
-            <li>Especial
-                <p>Editoria entrevista</p>
-            </li>
-
-        </ul>
     </div>
 </div>
