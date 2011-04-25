@@ -123,6 +123,10 @@ body > #todo {
     -webkit-border-radius:4px;
 }
 
+#box-login input[type=submit]:hover {
+    background-image: url(../img/bg-button-hover.png);
+
+}
 #branco-tela textarea{
     border: 1px solid #cecece;
     padding: 5px;
@@ -608,18 +612,19 @@ body > #todo {
     width: 110px;
     margin-left:8px;
     color: #fff;
-    margin-top: -28px;
+    margin-top: -27px;
     z-index: 10;
     font-variant: small-caps;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 14px;
     *margin-left:-40px;
+    *font-size:13px;
 }
 
 #fundo-titulo-sombra-2{
     background-color: #000;
     width: 113px;
-    height: 25px;
+    height: 23px;
     margin-left: 12px;
     margin-top: -15px;
     z-index: 9;
@@ -632,8 +637,6 @@ body > #todo {
     padding: 2px;
     margin-top: -40px;
     float: left;
-    border: 1px solid #ccc;
-    height: 700px;
 }
 
 /*destaques*/
@@ -645,3 +648,51 @@ body > #todo {
 }
 
 
+#itens-menu li {
+    float: left;
+}
+
+#ultimas-materias {
+    width: 355px;
+    margin-right: 20px;
+
+}
+
+#mais-lidas {
+    margin-top: 18px;
+    width: 175px;
+    background-image: url(../img/bg-caixa.png);
+    height: 500px;
+    z-index: 00;
+    padding: 2px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.traco-ultimas{
+    width: 355px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 18px;
+    padding-top: 18px;
+    *margin-top:-13px;
+}
+
+#ultimas-img {
+    background-image: url(../img/img-ultima.jpg);
+    width: 185px;
+    height: 110px;
+    float: left;
+    margin-right: 10px;
+}
+
+#lista {
+    background-image: url(../img/lista.png);
+    width: 8px;
+    height: 8px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-top: 3px;
+}

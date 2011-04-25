@@ -273,6 +273,10 @@ input[type=text], input[type=password]{
     -webkit-border-radius:4px;
 }
 
+#box-revista li a:hover{
+    background-image: url(../img/bg-botao-hover.png);
+}
+
 #box-revista li span.caixa-alta-link{
     font-size: 16px;
 }
@@ -343,3 +347,58 @@ input[type=text], input[type=password]{
 #sua-opniao a:hover {
     color: #333;
 }
+
+
+#ultimas-materias h3{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-variant: small-caps;
+    color: #fff;
+    background-color: #333;
+    padding: 3px;
+    text-align: center;
+    margin-left: 195px;
+    margin-bottom: 10px;
+    *margin-top: 18px;
+}
+
+#ultimas-materias h2 a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #500000;
+
+}
+
+#ultimas-materias p {
+    margin-top: 6px;
+}
+
+#ultimas-materias p a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: black;
+    line-height: 125%;
+}
+
+#mais-lidas h4 a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000;
+}
+
+#mais-lidas p {
+    margin-top: 6px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+}
+
+#mais-lidas p a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #000;
+    line-height: 125%;
+}
+
