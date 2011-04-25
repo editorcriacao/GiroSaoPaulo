@@ -4,7 +4,7 @@
 <div id="faixa-listrada"></div>
 <br />
 <?php if (empty($artigos)) {?>
-    <p style="text-align: center;">Não há matérias nessa editoria</p>
+    <p style="text-align: center; margin-top: 15px;">Não há matérias nessa editoria</p>
 <?php } else {?>
 <?php foreach ($artigos as $artigo) { ?>
         <ul id="noticias-por-secao">

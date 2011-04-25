@@ -82,9 +82,11 @@ body > #todo {
 #chave{
     margin-top: 3px;
     background-image: url(../img/chave-login-senha.png);
-    width: 28px;
-    height: 43px;
+    width: 24px;
+    height: 35px;
     display: block;
+    margin-left:10px;
+    margin-bottom: 7px;
     *margin-top: 2px;
 }
 
@@ -309,10 +311,20 @@ body > #todo {
     width: 170px;
     margin-left: -10px;
     border-bottom: 1px solid #999;
-    color: #666666;
     margin-top: 2px;
     *margin-top:-8px;
 }
+
+.traco-opniao {
+    width: 155px;
+    border-bottom: 1px solid #999;
+    margin-top: 35px;
+    margin-left: 5px;
+    *margin-top:0;
+    *margin-left:0;
+}
+
+
 
 #principal-home #slide-materias-destaques{
     width: 55.5%;
@@ -572,12 +584,12 @@ body > #todo {
 
 #lateral-left {
     float: left;
-    width:180px;
+    width:170px;
 }
 
 #fundo-listrado {
     background-image: url(../img/bg-caixa.png);
-    height: 496px;
+    height: 340px;
     width: 166px;
     z-index: 0;
     margin-left: -10px;
@@ -613,3 +625,23 @@ body > #todo {
     z-index: 9;
     *margin-left:-35px;
 }
+
+#meio {
+    width: 555px;
+    margin-left: 25px;
+    padding: 2px;
+    margin-top: -40px;
+    float: left;
+    border: 1px solid #ccc;
+    height: 700px;
+}
+
+/*destaques*/
+
+#destaque-home {
+    background-image: url(../img/slide.png);
+    width: 555px;
+    height: 305px;
+}
+
+

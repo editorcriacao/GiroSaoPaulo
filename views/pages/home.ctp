@@ -85,11 +85,32 @@
                     <br/>
                     <h3>Enquete</h3>
                     <h1>É aqui que o titulo da enquete vai tá?</h1>
-                    
+                    <a href="">+ Votar</a><br/>
+                    <a href="" style="*margin-top: 3px; *margin-left:-51px;">+ Ver Resultado</a>
 
+                    <div class="traco-opniao"></div>
+
+                    <br/>
+                    <h3>Fórum</h3>
+                    <h1>É aqui que o titulo do fórum vai</h1>
+                    <a href="">+ Responder</a><br/>
+                    <a href="" style="*margin-top: 3px; *margin-left:-76px;">+ Outros Fóruns</a>
                 </div>
             </div>
-
         </div>
     </div>
+
+    <div id="meio">
+        <div id="destaque-home">
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
 </div>

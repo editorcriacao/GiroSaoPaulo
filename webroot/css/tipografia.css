@@ -166,12 +166,14 @@ input[type=text], input[type=password]{
 
 #chave p{
     position: absolute;
-    margin-left: -25px;
-    margin-top: 20px;
+    margin-left: -32px;
+    margin-top: 18px;
     width: 100px;
     font-variant: small-caps;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: -0,5px;
+    font-size: 12px\9;
+    *font-size: 12px;
 }
 
 #header-pagina-menu h2{
@@ -227,7 +229,7 @@ input[type=text], input[type=password]{
     font-family: arial;
     font-size: 12px;
     color: #333333;
-    
+
 }
 
 /* REVISTA-DIGITAL */
@@ -237,10 +239,10 @@ input[type=text], input[type=password]{
 }
 
 #caixa-h1-editorias{
-   font-family: Arial,Helvetica,sans-serif;
-   color: #fff;
-   font-size: 18px;
-   font-variant: small-caps;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-variant: small-caps;
 }
 
 .h1-caixa-auta{
@@ -266,7 +268,7 @@ input[type=text], input[type=password]{
     background-image: url(../img/bg-botao.png);
     border: 1px solid #969696;
 
-     border-radius:4px;
+    border-radius:4px;
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
 }
@@ -283,10 +285,12 @@ input[type=text], input[type=password]{
 /* EDITORIAS LANDING PAGE*/
 #noticias-por-secao li a{
     font-family: Arial,Helvetica,sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: #000000;
     font-weight: bold;
     font-variant: small-caps;
+    *font-weight: bolder ;
+    *font-size: 14px;
 }
 
 #noticias-por-secao li p {
@@ -318,6 +322,24 @@ input[type=text], input[type=password]{
     color: #000000;
     font-weight: bold;
     text-align: left;
+    margin-bottom: 12px;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+#sua-opniao a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    font-variant: small-caps;
+    *font-size: 13px;
+}
+
+#sua-opniao a:hover {
+    color: #333;
 }
