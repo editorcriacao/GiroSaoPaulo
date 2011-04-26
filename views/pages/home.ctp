@@ -1,49 +1,3 @@
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("#editorias-rotato ul #panorama").mouseover(function(){
-            $("#painel-1").fadeIn(200);
-        });
-        $("#editorias-rotato ul #panorama").mouseleave(function(){
-            $("#painel-1").fadeOut(200);
-        });
-
-        $("#editorias-rotato ul #entrevista").mouseover(function(){
-            $("#painel-2").fadeIn(200);
-        });
-        $("#editorias-rotato ul #entrevista").mouseleave(function(){
-            $("#painel-2").fadeOut(200);
-        });
-
-        $("#editorias-rotato ul #ciencia").mouseover(function(){
-            $("#painel-3").fadeIn(200);
-        });
-        $("#editorias-rotato ul #ciencia").mouseleave(function(){
-            $("#painel-3").fadeOut(200);
-        });
-
-        $("#editorias-rotato ul #negocios").mouseover(function(){
-            $("#painel-4").fadeIn(200);
-        });
-        $("#editorias-rotato ul #negocios").mouseleave(function(){
-            $("#painel-4").fadeOut(200);
-        });
-
-        $("#editorias-rotato ul #gestao").mouseover(function(){
-            $("#painel-5").fadeIn(200);
-        });
-        $("#editorias-rotato ul #gestao").mouseleave(function(){
-            $("#painel-5").fadeOut(200);
-        });
-
-        $("#editorias-rotato ul #especial").mouseover(function(){
-            $("#painel-6").fadeIn(200);
-        });
-        $("#editorias-rotato ul #especial").mouseleave(function(){
-            $("#painel-6").fadeOut(200);
-        });
-    });
-</script>
-
 <div id="principal-home">
 
     <div id="lateral-left">
@@ -85,11 +39,32 @@
                     <br/>
                     <h3>Enquete</h3>
                     <h1>É aqui que o titulo da enquete vai tá?</h1>
-                    
+                    <a href="">+ Votar</a><br/>
+                    <a href="" style="*margin-top: 3px; *margin-left:-51px;">+ Ver Resultado</a>
 
+                    <div class="traco-opniao"></div>
+
+                    <br/>
+                    <h3>Fórum</h3>
+                    <h1>É aqui que o titulo do fórum vai</h1>
+                    <a href="">+ Responder</a><br/>
+                    <a href="" style="*margin-top: 3px; *margin-left:-76px;">+ Outros Fóruns</a>
                 </div>
             </div>
-
         </div>
     </div>
+
+    <div id="meio">
+        <div id="destaque-home">
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
 </div>

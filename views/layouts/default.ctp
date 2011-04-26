@@ -148,9 +148,7 @@
                 <?php echo $content_for_layout ?>
                             </div><!--#content -->
 
-                            <div id="banner-lateral">
-                <?php echo $this->element('banner') ?>
-                            </div><!--#banner-lateral -->
+
 
                         </div><!--#todo -->
 

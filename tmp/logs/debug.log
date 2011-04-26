@@ -35,3 +35,4 @@
 =======
 2011-04-07 11:15:41 Debug: Notice (8): Undefined variable: editoria in [C:\Documents and Settings\Amanda\Desktop\VertrigoServ\www\GiroSaoPaulo\app\views\pages\home.ctp, line 51]
 >>>>>>> 52f5e6574b24fd38612183b6aa53a382a6953cfc
+2011-04-25 11:10:51 Debug: Notice (8): Undefined property: ComentariosController::$Comentario in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\controllers\comentarios_controller.php, line 7]
