@@ -6,6 +6,15 @@
         <?php echo $this->Html->css(array('reset', 'estrutura', 'tipografia', 'icon')) ?>
         <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
         <?php echo $this->Html->script(array('jquery')) ?>
+         <script type="text/javascript">
+            $(document).ready(function(){
+                $("#alertBAD span").click(function(){
+                    $(".box-msg").fadeOut();
+                    $("#cover").fadeOut();
+                });
+
+            });
+        </script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $("#login-senha").mouseover(function(){
@@ -130,7 +139,7 @@
                                 <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 42, 'tecnologia')) ?>">Tecnologia</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>">Loja Virtual</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/revista-digital') ?>">Revista Digital</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>">Cadastro</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url('/cadastro') ?>">Cadastro</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/destaques') ?>">Contato</a></li>
                             </ul>
                         </div>

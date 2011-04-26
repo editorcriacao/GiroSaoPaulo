@@ -27,8 +27,19 @@ p {
     font-weight: normal;
 }
 
+b{
+    font-family: arial;
+    font-weight: bold;
+}
+
 .data-topo{
     font-size: 13px;
+}
+
+.newsletter{
+    font-family: arial;
+    font-size: 12px;
+    
 }
 
 
