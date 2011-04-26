@@ -3,6 +3,7 @@
 <div id="caixa-h1-editorias"><?php echo $editoria['Editoria']['nomeEditoria'] ?></div>
 <div id="faixa-listrada"></div>
 <br />
+<div style="margin-left: 15px;">
 <?php if (empty($artigos)) {?>
     <p style="text-align: center; margin-top: 15px;">Não há matérias nessa editoria</p>
 <?php } else {?>
@@ -15,4 +16,5 @@
         </ul>
 <?php } ?>
 <?php } ?>
+</div>
 
