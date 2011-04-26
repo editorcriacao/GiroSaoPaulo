@@ -1,6 +1,6 @@
 <div id="caixa">
     <div id="box-sombra"></div>
-    <div id="caixa-h1"><span class="h1-caixa-auta">R</span>EVISTA <span class="h1-caixa-auta">D</span>IGITAL / <span class="h1-caixa-auta">U</span>LTIMA <span class="h1-caixa-auta">E</span>DIÇÃO</div>
+    <div id="caixa-h1">Revista Digital | Última Edição</div>
     <br />
     <div id="caixa-branco">
         <ul id="box-revista">

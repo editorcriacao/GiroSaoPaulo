@@ -137,10 +137,10 @@
                                 <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 40, 'cultura')) ?>">Cultura</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 41, 'sustentabilidade')) ?>">Sustentabilidade</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url(array('controller'=>'editorias', 'action'=>'ver', 42, 'tecnologia')) ?>">Tecnologia</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>">Loja Virtual</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
+                                <li><a href="<?php echo $this->Html->url('/lova-virtual') ?>">Loja Virtual</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
                                 <li><a href="<?php echo $this->Html->url('/revista-digital') ?>">Revista Digital</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/cadastro') ?>">Cadastro</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;
-                                <li><a href="<?php echo $this->Html->url('/destaques') ?>">Contato</a></li>
+                                <li><a href="<?php echo $this->Html->url('/cadastro') ?>">Cadastro</a></li> &nbsp;&nbsp;<?php echo $this->Html->image('barra-menu.png') ?> &nbsp;&nbsp;                       
+                                <li><a href="<?php echo $this->Html->url('/contato') ?>">Contato</a></li>
                             </ul>
                         </div>
                         <div id="menu-img-direita">

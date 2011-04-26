@@ -42,7 +42,7 @@ body > #todo {
 }
 
 #topo img{
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 #topo p{
@@ -428,8 +428,9 @@ body > #todo {
     background-image: url(../img/bg-caixa.png);
     padding: 5px;
     width: 750px;
-    height: 380px;
+    height: 373px;
     display: block;
+    margin-top: -25px;
 }
 
 #caixa-h1{
@@ -437,7 +438,7 @@ body > #todo {
     width: 300px;
     text-align: center;
     margin: 5px 0 0 5px;
-    padding: 15px 5px 5px 5px;
+    padding: 12px 5px 6px 5px;
     z-index: 100;
     margin-top: -40px;
 }
@@ -495,7 +496,7 @@ body > #todo {
 #faixa-listrada{
     background-image: url(../img/bg-caixa.png);
     height: 12px;
-    width: 630px;
+    width: 580px;
     z-index: 0;
     margin-left: 157px;
     margin-top: -11px;
@@ -506,7 +507,7 @@ body > #todo {
     list-style: none;
     display: inline;
     float: left;
-    width: 320px;
+    width: 325px;
     padding: 15px;
     border-bottom: 1px solid #444;
 
@@ -765,21 +766,68 @@ body > #todo {
     height: 60px;
     background-color: #fff;
     z-index: 100;
+}
+/*Contato*/
+
+#colunas-formulario {
+    margin-bottom: 8px;
+}
+
+#colunas-formulario input[type=text]{
+    border: 1px solid #cecece;
+    padding: 4px;
+    color: #888;
+    font-family: arial;
+    margin-bottom: 8px;
 
     border-radius:4px;
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
 }
 
-#alertBAD span{
-    background-color: #ccc;
-    color: #fff;
-    font-weight: bold;
-    padding: 3px;
+
+#colunas-formulario select {
+    border: 1px solid #cecece;
+    padding: 4px;
+    color: #888;
+    font-family: arial;
+    margin-bottom: 8px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+#colunas-formulario textarea {
+    border: 1px solid #cecece;
+    padding: 4px;
+    color: #888;
+    font-family: arial;
+    width: 340px;
+    height: 130px;
+    *width: 320px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+#colunas-formulario input[type=submit]{
+    margin-top: 15px;
+    background-image: url(../img/bg-button.png);
+    border: 1px solid #888;
+    height: 30px;
+    padding: 4px;
     cursor: pointer;
-    float: right;
-    margin-top: -17px;
-    margin-right: -5px;
+    margin-bottom: 8px;
+    padding: 4px 15px\9;
+    margin-right: 75px\9 !important;
+    *padding: 4px;
+    *position:absolute;
+    *top:493px;
+    *margin-left:47px;
 
     border-radius:4px;
     -moz-border-radius:4px;
@@ -801,3 +849,27 @@ body > #todo {
 }
 
 /* CADASTRO */
+
+
+#colunas-formulario input[type=submit]:hover{
+    background-image: url(../img/bg-button-hover.png);
+}
+
+#contato {
+    margin-left: 10px;
+    margin-top: 15px;
+    *margin-top: 30px;
+}
+
+#telefone-vagas li {
+    float: left;
+    display: block;
+}
+
+#coluna-um {
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #444;
+}
+
