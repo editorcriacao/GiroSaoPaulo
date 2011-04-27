@@ -5,7 +5,7 @@ Class ComentariosController extends AppController {
     var $name = 'Comentarios';
 
     function ver($id) {
-        $comentarios = $this->Comentario->find('all', array('conditions' => array('Comentario.site' => 4, 'Comentario.artigo_id' => $id), 'order' => array('Comentario.created' => 'DESC')));
+        $comentarios = $this->Comentario->find('all', array('conditions' => array( 'Comentario.artigo_id' => $id), 'order' => array('Comentario.created' => 'DESC')));
 
         if (isset($this->params['requested'])) {
             return $comentarios;

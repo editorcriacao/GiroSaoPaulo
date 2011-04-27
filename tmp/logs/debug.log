@@ -39,3 +39,4 @@
 2011-04-26 11:10:04 Debug: Notice (8): Undefined property: UsuariosController::$Session in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\controllers\usuarios_controller.php, line 57]
 2011-04-26 11:13:44 Debug: Notice (8): Undefined index:  login_usuario in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\controllers\usuarios_controller.php, line 10]
 2011-04-26 11:58:37 Debug: Notice (8): Undefined index:  login_usuario in [C:\Arquivos de programas\VertrigoServ\www\GiroSaoPaulo\app\controllers\usuarios_controller.php, line 10]
+2011-04-27 12:59:00 Debug: Notice (8): Undefined variable: cor in [C:\Documents and Settings\Amanda\Desktop\VertrigoServ\www\GiroSaoPaulo\app\views\artigos\ver.ctp, line 11]

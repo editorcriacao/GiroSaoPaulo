@@ -128,7 +128,7 @@ body > #todo {
 
 }
 #branco-tela textarea{
-    border: 1px solid #cecece;
+    border: 1px solid #666;
     padding: 5px;
     color: #8a8a8a;
     font-family: arial;
@@ -651,14 +651,14 @@ body > #todo {
 
 
 /* MATERIA */
+
 #materia-texto{
-    width: 750px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 #caixa-cinza{
     border: 1px solid #686868;
-    width: 710px;
+    width: 695px;
     padding: 20px;
 
     border-radius:4px;
@@ -697,7 +697,7 @@ body > #todo {
 }
 
 #resto-elementos input[type=text]{
-    border: 1px solid #686868;
+    border: 1px solid #666;
 }
 
 #cadastro .input{
@@ -774,7 +774,7 @@ body > #todo {
 }
 
 #colunas-formulario input[type=text]{
-    border: 1px solid #cecece;
+    border: 1px solid #666;
     padding: 4px;
     color: #888;
     font-family: arial;
@@ -787,7 +787,7 @@ body > #todo {
 
 
 #colunas-formulario select {
-    border: 1px solid #cecece;
+    border: 1px solid #666;
     padding: 4px;
     color: #888;
     font-family: arial;
@@ -800,7 +800,7 @@ body > #todo {
 
 
 #colunas-formulario textarea {
-    border: 1px solid #cecece;
+    border: 1px solid #666;
     padding: 4px;
     color: #888;
     font-family: arial;
@@ -850,7 +850,6 @@ body > #todo {
 
 /* CADASTRO */
 
-
 #colunas-formulario input[type=submit]:hover{
     background-image: url(../img/bg-button-hover.png);
 }
@@ -873,3 +872,80 @@ body > #todo {
     border-right: 1px solid #444;
 }
 
+#comentarios {
+    margin-left: 10px;
+    width: 732px;
+    border-bottom: 1px solid #666;
+    padding: 0 5px 18px 5px;
+}
+
+/*comentarios*/
+
+#colunas-formulario-2 {
+    margin-bottom: 8px;
+}
+
+#colunas-formulario-2 input[type=text]{
+    border: 1px solid #666;
+    padding: 4px;
+    color: #333;
+    font-family: arial;
+    margin-bottom: 8px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+#colunas-formulario-2 select {
+    border: 1px solid #666;
+    padding: 4px;
+    color: #333;
+    font-family: arial;
+    margin-bottom: 8px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+#colunas-formulario-2 textarea {
+    border: 1px solid #666;
+    padding: 4px;
+    color: #333;
+    font-family: arial;
+    width: 340px;
+    height: 90px;
+    margin-bottom: 10px;
+    *width: 320px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+#colunas-formulario-2 input[type=submit]{
+    margin-top: 15px;
+    background-image: url(../img/bg-button.png);
+    border: 1px solid #666;
+    height: 30px;
+    padding: 4px 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    padding: 4px 15px\9;
+    margin-right: 75px\9 !important;
+    *width:68px !important;
+    *padding: 4px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+
+}
+
+#colunas-formulario-2 input[type=submit]:hover{
+    background-image: url(../img/bg-button-hover.png);
+}
